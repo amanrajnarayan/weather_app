@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="#1E1E1E"
+        android:textSize="18sp"
+        android:translationX="40sp"
+        android:translationY="105sp" />
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textColor="#1e1e1e"
+        android:textSize="20sp"
+        android:translationX="290sp"
+        android:translationY="105sp" />
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#1e1e1e"
+        android:textSize="115sp"
+        android:translationX="30sp"
+        android:translationY="140sp" />
+
+    <TextView
+        android:id="@+id/weatherDescTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:text="Weather Description"
+        android:textColor="#1e1e1e"
+        android:textSize="25sp"
+        android:translationX="40sp"
+        android:translationY="300sp" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-18dp"
+        android:layout_toEndOf="@+id/tempTextView"
+        android:text="°C"
+        android:textColor="#1e1e1e"
+        android:textSize="37sp"
+        android:translationX="55sp"
+        android:translationY="165sp" />
+
+    <ImageView
+        android:id="@+id/weatherImageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:translationX="245sp"
+        android:translationY="150sp"
+        app:srcCompat="@drawable/icon_01d" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:text="Made with Love\nAman Raj"
+        android:textAlignment="center"
+        android:textColor="#1e1e1e"
+        android:textSize="10sp"
+        android:translationX="30sp"
+        android:translationY="30sp" />
+
+</RelativeLayout>
